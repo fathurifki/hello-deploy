@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-m8o)44ny761!=9%%qim43hmktccene5+%a7!nq&%d8$wiq-@$g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['hello-world-django.pomerain.org']
 
 
 # Application definition
