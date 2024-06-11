@@ -1,6 +1,8 @@
 # Base image and PDM installation
 FROM python:3.11.9-bullseye AS base
 RUN pip install pdm
+WORKDIR /app
+COPY . .
 RUN pdm install
 
 # Expose port and run server
